@@ -1,0 +1,18 @@
+Domain(
+    // meta
+    name: "Flat",
+    description: "Flat",
+    tags: [],
+    categories: [],
+
+    neighbors: [],
+    bounds_top_left: Vec3(0,0,0),
+    bounds_bottom_right: Vec3(10,10,10),
+    biome: None,
+    item_spawns: [],
+    npc_spawns: [],
+    resource_node_spawns: [],
+    scenery_spawns: [],
+    structure_spawns: [],
+    player_spawns: [],
+)

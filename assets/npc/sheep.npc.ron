@@ -1,0 +1,123 @@
+Npc(
+    // meta
+    name: "Sheep",
+    description: "A sheep",
+    tags: [
+        "NPC",
+    ],
+    categories: [
+        "NPC/Basic"
+    ],
+
+    // breather
+    oxygen_max_base: 100,
+    oxygen_max_level_multiplier: 5,
+
+    // breeder
+    breedable: true,
+    breeding_duration_secs: 300,
+    gestation_duration_secs: Some(1200),
+    breeding_interval_secs: 600,
+
+    // carrier
+    carried_weight_base: 30,
+    carried_weight_level_multiplier: 2,
+
+    // climber
+    climbing_incline_max: Some(70),
+    climbing_tools_needed: [],
+
+    // damageable
+    health_max_base: Some(100),
+    health_max_level_multiplier: 5,
+
+    //decayable
+    decay_duration_secs: None,
+
+    //defensive
+    protection_base: {},
+
+    //drinker
+    thirst_max_base: 100,
+    thirst_max_level_multiplier: 5,
+
+    //dropper
+    drops: [],
+
+    //eater
+    hunger_max_base: 100,
+    hunger_max_level_multiplier: 5,
+    food_drain: {},
+    foods_edible: {},
+    food_health_restored: {},
+
+    //effected
+    effects: [],
+
+    //maturing
+    maturity_intervals: {},
+    egg_incubation_temp_min: None,
+    egg_incubation_temp_max: None,
+
+    //mover
+    stance_capability: [],
+    stamina_max_base: 100,
+    stamina_max_level_multiplier: 5,
+    speed_max_base: 100,
+    speed_max_level_multiplier: 5,
+    walk_speed: 1,
+    walk_stamina_cost: 5,
+
+    //npc_fighter
+    flee: [],
+    flee_approach_distance: 1,
+    aggression_distance: {},
+    aggression_territory_distance: None,
+    retreat: [],
+    retreat_health_threshold: 1,
+
+    //offensive
+    attacks: [
+        "bite",
+    ],
+
+    //processor
+    processes: [],
+
+    //reloadable
+    ammo_count: {},
+    reload_duration_secs: 1,
+
+    //rideable
+    saddles: [],
+
+    // runner
+    run_stamina_cost: 5,
+    run_speed_multiplier: 2,
+
+    //swimmer
+    swim_speed: .5,
+    swim_stamina_cost: 5,
+    swim_sprint_stamina_cost: 10,
+    swim_sprint_speed_multiplier: 1.5,
+
+    //tameable
+    tameable: true,
+    torpor_max_base: 100,
+    torpor_max_level_multiplier: 5,
+    taming_treat_value: {},
+    taming_treat_interval_secs: 30,
+
+    //viewer
+    fov_vertical: 180,
+    fov_horizontal: 180,
+
+    //weighted
+    weight: 45,
+
+    //wieldable
+    slots_used: [],
+
+    //wielder
+    wielding: {},
+)

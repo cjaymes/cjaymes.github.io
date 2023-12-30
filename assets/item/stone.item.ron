@@ -1,0 +1,27 @@
+Item(
+    // meta
+    name: "Stone",
+    description: "Stone",
+    tags: [
+        "Resource",
+    ],
+    categories: [
+        "Resources/Basic"
+    ],
+
+    // decayable
+    decay_duration_secs: None,
+
+    // damageable
+    health_max_base: None,
+    health_max_level_multiplier: 1.,
+
+    // spoiler
+    spoil_duration_secs: None,
+
+    // stackable
+    stack_max: Some(100),
+
+    // weighted
+    weight: 1.,
+)
