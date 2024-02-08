@@ -6,21 +6,18 @@
             "kick",
             "punch",
         ],
-        "domain": [
-            "flat"
-        ],
         "effect": [],
         "item": [
             "stone",
         ],
-        "map": [
-            "testing",
-        ],
         "npc": [
             "sheep",
         ],
+        "planet": [
+            "testing",
+        ],
         "player": [],
-        "processe": [],
+        "process": [],
         "processor": [],
         "resource_node": [],
         "scenery": [],

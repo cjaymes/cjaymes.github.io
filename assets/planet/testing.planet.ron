@@ -1,0 +1,40 @@
+Map(
+    // meta
+    name: "Testing",
+    description: "Testing",
+    tags: [],
+    categories: [],
+
+    contains_max: None,
+
+    chunk_size: 100,
+    biomes: [],
+    item_spawns: [],
+    npc_spawns: [],
+    resource_node_spawns: [],
+    scenery_spawns: [],
+    structure_spawns: [],
+    player_spawns: [],
+
+    decay_config: DecayConfig(
+        decaying: false,
+        npc_ownership_decay_rate: None,
+        structures_decay_rate: None,
+        dropped_item_decay_rate: 1.,
+        item_spoil_rate: 1.,
+    ),
+
+    day_time_config: DayTimeConfig(
+        dawn_duration_secs: 60,
+        day_duration_secs: 3600,
+        dusk_duration_secs: 60,
+        night_duration_secs: 3600,
+
+        hour_duration_secs: 60, // default 1 min
+
+        phase_initial: DayTimePhase::Dawn,
+        hour_initial: 0,
+        minute_initial: 0,
+        second_initial: 0,
+    )
+)
