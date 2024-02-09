@@ -27,7 +27,7 @@ NpcAsset(
     carried_weight_level_multiplier: 2,
 
     // climber
-    climber: true
+    climber: true,
     climbing_incline_max: Some(70),
     climbing_tools_needed: [],
 
@@ -36,7 +36,7 @@ NpcAsset(
     contains_max: Some(20),
 
     // damageable
-    damageable: true
+    damageable: true,
     health_max_base: Some(100),
     health_max_level_multiplier: 5,
 
@@ -47,7 +47,7 @@ NpcAsset(
     protection_base: {},
 
     //drinker
-    drinker: true
+    drinker: true,
     thirst_max_base: 100,
     thirst_max_level_multiplier: 5,
     thirst_rate: 1,
