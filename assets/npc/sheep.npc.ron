@@ -10,49 +10,63 @@ NpcAsset(
     ],
 
     // breather
+    breather: true,
     oxygen_max_base: 100,
     oxygen_max_level_multiplier: 5,
 
     // breeder
-    breedable: true,
+    breeder: true,
     breeding_duration_secs: 300,
     gestation_duration_secs: Some(1200),
     breeding_interval_secs: 600,
+    breeding_min_distance: 10,
 
     // carrier
+    carrier: true,
     carried_weight_base: 30,
     carried_weight_level_multiplier: 2,
 
     // climber
+    climber: true
     climbing_incline_max: Some(70),
     climbing_tools_needed: [],
 
+    // container
+    container: true,
+    contains_max: Some(20),
+
     // damageable
+    damageable: true
     health_max_base: Some(100),
     health_max_level_multiplier: 5,
 
-    //decayable
+    //decaying
     decay_duration_secs: None,
 
     //defensive
     protection_base: {},
 
     //drinker
+    drinker: true
     thirst_max_base: 100,
     thirst_max_level_multiplier: 5,
+    thirst_rate: 1,
 
     //dropper
+    dropper: false,
     drops: [],
+    replenish_interval_secs: 0,
 
     //eater
+    eater: true,
     hunger_max_base: 100,
     hunger_max_level_multiplier: 5,
-    food_drain: {},
+    hunger_drain: {},
     foods_edible: {},
     food_health_restored: {},
 
     //effected
-    effects: [],
+    effects_initial: [],
 
     //maturing
     maturity_intervals: {},
@@ -60,6 +74,7 @@ NpcAsset(
     egg_incubation_temp_max: None,
 
     //mover
+    mover: true,
     stance_capability: [],
     stamina_max_base: 100,
     stamina_max_level_multiplier: 5,
@@ -67,8 +82,11 @@ NpcAsset(
     speed_max_level_multiplier: 5,
     walk_speed: 1,
     walk_stamina_cost: 5,
+    run_stamina_cost: 10,
+    run_speed_multiplier: 5,
 
     //npc_fighter
+    fighter: true,
     flee: [],
     flee_approach_distance: 1,
     aggression_distance: {},
@@ -80,22 +98,24 @@ NpcAsset(
     attacks: [
         "bite",
     ],
+    accuracy: {},
+    ammo_max: {},
+    reload_duration_secs: 0,
+
+    //passive_processor
+    passive_processor: false,
+    passive_processes: [],
 
     //processor
+    processor: false,
     processes: [],
 
-    //reloadable
-    ammo_count: {},
-    reload_duration_secs: 1,
-
-    //rideable
+    // rideable
+    rideable: false,
     saddles: [],
 
-    // runner
-    run_stamina_cost: 5,
-    run_speed_multiplier: 2,
-
     //swimmer
+    swimmer: true,
     swim_speed: .5,
     swim_stamina_cost: 5,
     swim_sprint_stamina_cost: 10,
@@ -116,8 +136,11 @@ NpcAsset(
     weight: 45,
 
     //wieldable
+    wieldable: false,
     slots_used: [],
 
     //wielder
+    wielder: false,
     wielding: {},
+    wield_slots: [],
 )
