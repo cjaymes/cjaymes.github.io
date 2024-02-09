@@ -7,6 +7,9 @@ Map(
 
     contains_max: None,
 
+    equatorial_radius: 10000., // m 6378137.0,   // m
+    flattening_denominator: 1.,
+    gravitational_acceleration: 9.80665, // m/s^2
     chunk_size: 100,
     biomes: [],
     item_spawns: [],
@@ -16,13 +19,13 @@ Map(
     structure_spawns: [],
     player_spawns: [],
 
-    decay_config: DecayConfig(
-        decaying: false,
-        npc_ownership_decay_rate: None,
-        structures_decay_rate: None,
-        dropped_item_decay_rate: 1.,
-        item_spoil_rate: 1.,
-    ),
+    // decay_config: DecayConfig(
+    //     decaying: false,
+    //     npc_ownership_decay_rate: None,
+    //     structures_decay_rate: None,
+    //     dropped_item_decay_rate: 1.,
+    //     item_spoil_rate: 1.,
+    // ),
 
     day_time_config: DayTimeConfig(
         dawn_duration_secs: 60,
