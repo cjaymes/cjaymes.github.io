@@ -1,4 +1,4 @@
-Attack(
+AttackAsset(
     name: "Bite",
     description: "Bite",
     tags: [],

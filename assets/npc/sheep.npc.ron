@@ -1,4 +1,4 @@
-Npc(
+NpcAsset(
     // meta
     name: "Sheep",
     description: "A sheep",

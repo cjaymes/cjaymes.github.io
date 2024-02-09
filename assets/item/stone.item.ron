@@ -1,4 +1,4 @@
-Item(
+ItemAsset(
     // meta
     name: "Stone",
     description: "Stone",
