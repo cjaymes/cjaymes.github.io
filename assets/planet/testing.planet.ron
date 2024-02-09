@@ -8,7 +8,7 @@ PlanetAsset(
     contains_max: None,
 
     equatorial_radius: 10000,
-    flattening_denominator: 1,
+    flattening_denominator: 1.0,
     gravitational_acceleration: 9.80665,
     chunk_size: 100,
     biomes: [],
