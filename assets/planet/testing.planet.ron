@@ -35,7 +35,7 @@ PlanetAsset(
 
         hour_duration_secs: 60, // default 1 min
 
-        phase_initial: DayTimePhase::Dawn,
+        phase_initial: Dawn,
         hour_initial: 0,
         minute_initial: 0,
         second_initial: 0,
