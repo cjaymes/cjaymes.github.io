@@ -61,7 +61,7 @@ NpcAsset(
     eater: true,
     hunger_max_base: 100,
     hunger_max_level_multiplier: 5,
-    hunger_drain: {},
+    hunger_rate: {},
     foods_edible: {},
     food_health_restored: {},
 
