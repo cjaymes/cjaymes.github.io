@@ -15,8 +15,8 @@ PlayerAsset (
     //climber
     climbing_incline_max: Some(90),
     climbing_tools_needed: [],
-    climbing_speed: {},
-    climbing_stamina_cost: {},
+    climbing_speed: [],
+    climbing_stamina_cost: [],
 
     // container
     contains_max: Some(100),
