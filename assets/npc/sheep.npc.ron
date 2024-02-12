@@ -30,6 +30,8 @@ NpcAsset(
     climber: true,
     climbing_incline_max: Some(70),
     climbing_tools_needed: [],
+    climbing_speed: {},
+    climbing_stamina_cost: {},
 
     // container
     container: true,

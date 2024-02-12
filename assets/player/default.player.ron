@@ -1,0 +1,86 @@
+PlayerAsset (
+    name: "default",
+    description: "",
+    categories: [],
+    tags: [],
+
+    //breather
+    oxygen_max_base: 100,
+    oxygen_max_level_multiplier: 5,
+
+    //carrier
+    carried_weight_base: 20,
+    carried_weight_level_multiplier: 3,
+
+    //climber
+    climbing_incline_max: Some(90),
+    climbing_tools_needed: [],
+    climbing_speed: {},
+    climbing_stamina_cost: {},
+
+    // container
+    contains_max: Some(100),
+
+    //damageable
+    health_max_base: Some(100),
+    health_max_level_multiplier: 5,
+
+    //defensive
+    protection_base: {},
+
+    //drinker
+    thirst_max_base: 100,
+    thirst_max_level_multiplier: 5,
+    thirst_rate: 1,
+
+    //eater
+    hunger_max_base: 100,
+    hunger_max_level_multiplier: 5,
+    hunger_rate: {},
+    foods_edible: {},
+    food_health_restored: {},
+
+    //effected
+    effects_initial: [],
+
+    //mover
+    stance_capability: [],
+    stamina_max_base: 100,
+    stamina_max_level_multiplier: 5,
+    speed_max_base: 100,
+    speed_max_level_multiplier: 5,
+    walk_speed: 1,
+    walk_stamina_cost: 5,
+    run_stamina_cost: 10,
+    run_speed_multiplier: 5,
+
+    //offensive
+    attacks: [],
+    accuracy: {},
+    ammo_max: {},
+    reload_duration_secs: 0,
+
+    //processor
+    processes: [],
+
+    //swimmer
+    swim_speed: .5,
+    swim_stamina_cost: 5,
+    swim_sprint_stamina_cost: 10,
+    swim_sprint_speed_multiplier: 1.5,
+
+    //thermal
+    temp_min: 64,
+    temp_max: 75,
+
+    //viewer
+    fov_vertical: 180,
+    fov_horizontal: 180,
+
+    //weighted
+    weight: 70,
+
+    //wielder
+    wielding: HashMap<WieldSlotEnum, ItemId>,
+    wield_slots: Vec<WieldSlotEnum>,
+)

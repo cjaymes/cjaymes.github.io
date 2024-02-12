@@ -17,7 +17,7 @@ PlanetAsset(
     resource_node_spawns: [],
     scenery_spawns: [],
     structure_spawns: [],
-    player_spawns: [],
+    player_spawn_points: [],
 
     // decay_config: DecayConfig(
     //     decaying: false,
