@@ -16,7 +16,9 @@
         "planet": [
             "testing",
         ],
-        "player": [],
+        "player": [
+            "default",
+        ],
         "process": [],
         "processor": [],
         "resource_node": [],
